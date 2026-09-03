@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/solana-rpc",
+  "title": "Solana RPC",
+  "description": "Solana wallet holdings, SOL balance, transaction history and SPL token top holders from public JSON-RPC, keyless",
+  "version": "0.2.0",
+  "websiteUrl": "https://pipeworx.io/packs/solana-rpc",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-solana-rpc",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/solana-rpc/mcp"
+    }
+  ]
+}

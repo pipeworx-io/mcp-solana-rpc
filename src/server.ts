@@ -9,7 +9,7 @@ import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprot
 import pack from './index.js';
 
 const server = new Server(
-  { name: '@pipeworx/mcp-solana-rpc', version: '0.2.0' },
+  { name: '@pipeworx/mcp-solana-rpc', version: '0.2.1' },
   { capabilities: { tools: {} } },
 );
 

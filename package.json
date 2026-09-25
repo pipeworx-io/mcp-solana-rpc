@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-solana-rpc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Solana RPC (keyless)",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-5caff5bd61b2e8be5e4d784b5582c1aa8f5636c7ac645fa8194e2c5731982476",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }

@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-solana-rpc",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Solana RPC (keyless)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-solana-rpc": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "solana-rpc"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-solana-rpc.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/solana-rpc",
   "pipeworx": {
-    "sourceHash": "v1-5caff5bd61b2e8be5e4d784b5582c1aa8f5636c7ac645fa8194e2c5731982476",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "mode": "gateway",
+    "slug": "solana-rpc",
+    "gatewaySlug": "solana-rpc",
+    "sourceHash": "v1-2f6d8c20a186edd8fa6d9fb42f87b68e3f2aab6444d91a99b5980bbf60089dbe",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }

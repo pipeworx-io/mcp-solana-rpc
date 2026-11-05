@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-solana-rpc",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Solana RPC (keyless)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "solana-rpc",
     "gatewaySlug": "solana-rpc",
-    "sourceHash": "v1-2f6d8c20a186edd8fa6d9fb42f87b68e3f2aab6444d91a99b5980bbf60089dbe",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-ba7fc5de7ff3e8f89d68b67771b26c3fd8608a4a8b9ffb8d3ba613caca3f3b23",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
